@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20px">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:id="@+id/btncback4"
+                android:layout_marginEnd="10px"
+                android:layout_marginStart="10px"
+                android:src="@drawable/back"
+                android:backgroundTint="#00ffffff" />
+            <ImageButton
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:id="@+id/btnchome4"
+                android:backgroundTint="#00ffffff"
+                android:layout_marginEnd="10px"
+                android:layout_marginStart="10px"
+                android:src="@drawable/home" />
+            <ImageButton
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:id="@+id/btncsave4"
+                android:backgroundTint="#00ffffff"
+                android:layout_marginEnd="10px"
+                android:layout_marginStart="10px"
+                android:src="@drawable/save2" />
+        </LinearLayout>
+        <TextView
+            android:text="Add Item"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner4"
+            android:gravity="center" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lname4"
+            android:hint="Name" />
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:id="@+id/ldes4"
+            android:hint="Description" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lp4"
+            android:hint="Price" />
+        <Button
+            android:text="Browse Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/limgbtn4" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:id="@+id/limg4" />
+    </LinearLayout>
+</ScrollView>

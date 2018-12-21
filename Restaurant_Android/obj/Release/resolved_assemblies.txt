@@ -1,0 +1,12 @@
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\Restaurant_Android.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\Java.Interop.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\Mono.Android.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\mscorlib.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\System.Core.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\System.Data.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\System.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\System.Xml.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\System.Runtime.Serialization.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\System.Numerics.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\Mono.Data.Tds.dll
+D:\Sync\Office_Projects\Restaurant_Android\Restaurant_Android\obj\Release\android\assets\Mono.Security.dll

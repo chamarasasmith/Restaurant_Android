@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:padding="60px">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:id="@+id/btnsave7"
+                android:layout_marginEnd="10px"
+                android:layout_marginStart="10px"
+                android:src="@drawable/save1"
+                android:backgroundTint="#00ffffff" />
+            <ImageButton
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:id="@+id/btnhome7"
+                android:backgroundTint="#00ffffff"
+                android:layout_marginEnd="10px"
+                android:layout_marginStart="10px"
+                android:src="@drawable/home" />
+            <ImageButton
+                android:layout_width="300px"
+                android:layout_height="match_parent"
+                android:id="@+id/btnbin7"
+                android:backgroundTint="#00ffffff"
+                android:layout_marginEnd="10px"
+                android:layout_marginStart="10px"
+                android:src="@drawable/bin" />
+        </LinearLayout>
+        <TextView
+            android:text="Edit Cart"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:id="@+id/space3" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtcid1" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:id="@+id/space1" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtccount"
+            android:hint="Edit Count" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:id="@+id/space2" />
+      <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spsr2"
+            android:gravity="center"
+            android:textAlignment="center" />
+      <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:id="@+id/space2" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cno2"
+            android:hint="Cover Number" />
+      <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:id="@+id/space2" />
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:id="@+id/txtcdes1"
+            android:hint="Edit Special Request" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:id="@+id/space2" />
+    </LinearLayout>
+</ScrollView>
